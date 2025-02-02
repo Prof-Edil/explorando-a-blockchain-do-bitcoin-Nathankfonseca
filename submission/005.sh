@@ -2,7 +2,6 @@
 #   `37d966a263350fe747f1c606b159987545844a493dd38d84b070027a895c4517`
 
 #!/bin/bash
-
 transacao=$(bitcoin-cli -rpcconnect=84.247.182.145:8332 -rpcuser=user_253 -rpcpassword=eRHxrWVSaWHw getrawtransaction 37d966a263350fe747f1c606b159987545844a493dd38d84b070027a895c4517 1)
 
 for i in $(seq 0 3);
